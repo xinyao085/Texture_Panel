@@ -39,8 +39,8 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 └── json/
     └── china_topo_quantized.json  # China provincial TopoJSON data
                                    # 中国省级 TopoJSON 数据（压缩）
+---
 
-###
 ## 📘 User Guide | 使用指南
 
 ### 1️⃣ Select a Province | 选择省份
