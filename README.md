@@ -134,17 +134,6 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 
 **Source | 数据来源**
 
-- Natural Earth
+- [D3-China-map](https://github.com/ligz08/D3-China-map?tab=readme-ov-file)
 
-**Processing Pipeline | 处理流程**
 
-1. Shapefile → NDJSON
-2. Filter China provinces
-3. Merge GeoJSON
-4. Convert to TopoJSON
-5. Quantize for file size reduction
-
-**Final File | 最终文件**
-
-```text
-china_topo_quantized.json
