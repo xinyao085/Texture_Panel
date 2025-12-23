@@ -26,20 +26,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 
 ---
 
-## 📁 Project Structure | 项目结构
 
-```text
-.
-├── Texture_Panel.html          # Entry HTML, DOM structure & UI logic
-│                              # 项目入口，页面结构与事件监听
-├── style.css                   # Layout & interaction styles
-│                              # 页面布局、地图与交互样式
-├── texturePatten.js            # Core logic: SVG patterns & map interaction
-│                              # 核心逻辑：纹理定义、更新与地图交互
-└── json/
-    └── china_topo_quantized.json  # China provincial TopoJSON data
-                                   # 中国省级 TopoJSON 数据（压缩）
-```text
 ## 📘 User Guide | 使用指南
 
 ### 1️⃣ Select a Province | 选择省份
