@@ -1,7 +1,8 @@
-# China Map Texture Panel  
+# China Map Texture Panel
+
 中国地图纹理设计面板
 
-A **D3.js + SVG Pattern** based interactive map tool for designing and previewing texture fills on Chinese provincial maps.  
+A **D3.js + SVG Pattern** based interactive map tool for designing and previewing texture fills on Chinese provincial maps.
 一个基于 **D3.js + SVG Pattern** 的中国省级地图纹理设计与交互示例项目。
 
 ---
@@ -9,6 +10,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 ## ✨ Features | 功能特性
 
 ### English
+
 - 🗺️ Interactive map of Chinese provinces (including Hong Kong, Macao, Taiwan)
 - 🎨 Two rendering modes: Color Mode & Pattern Mode
 - 🧩 Multiple texture types: Dot, Line, Grid
@@ -17,6 +19,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 - 🧹 Clear selection with one click
 
 ### 中文
+
 - 🗺️ 中国省级行政区交互式地图（含港澳台）
 - 🎨 支持颜色模式与纹理模式切换
 - 🧩 多种纹理类型：点阵 / 线条 / 网格
@@ -24,8 +27,9 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 - 📜 省份列表与地图高亮联动
 - 🧹 一键清除当前选择状态
 
----
+![Map Preview](Figures/pattern%20mode%20overview.png)
 
+---
 
 ## 📘 User Guide | 使用指南
 
@@ -33,17 +37,17 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 
 **English**
 
-- Click a province directly on the map  
-  **OR**
+- Click a province directly on the map**OR**
 - Click a province name from the scrollable list on the left
 - The selected province will be highlighted and displayed at the top
 
 **中文**
 
-- 可直接点击地图上的省份  
-  **或**
+- 可直接点击地图上的省份**或**
 - 从左侧省份列表中点击选择
 - 当前选中省份会在地图中高亮，并显示在顶部提示栏
+
+![Click and Select](Figures/Click%20and%20select.png)
 
 ---
 
@@ -58,6 +62,8 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 
 - `Color Mode`：使用纯色填充省份
 - `Pattern Mode`：使用 SVG 纹理填充省份
+
+![Color Mode](Figures/color%20type%20overview.png)
 
 ---
 
@@ -79,6 +85,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 - 通过单选按钮选择纹理类型
 - 当前省份纹理会实时更新
 
+![Change Type](Figures/slect%20texture%20type.png)
 ---
 
 ### 4️⃣ Rotate Texture | 旋转纹理
@@ -93,6 +100,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 - 使用 **Rotation 滑块（0–180°）** 调整纹理角度
 - 仅作用于当前选中省份
 
+![Rotation](Figures/Rotation.png)
 ---
 
 ### 5️⃣ Clear Selection | 清除选择
@@ -110,6 +118,7 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
   - 当前选中省份
   - 所有纹理 / 颜色设置
 
+![Clear](Figures/Clear.png)
 ---
 
 ## 🧠 Implementation Overview | 实现原理简述
@@ -135,5 +144,3 @@ A **D3.js + SVG Pattern** based interactive map tool for designing and previewin
 **Source | 数据来源**
 
 - [D3-China-map](https://github.com/ligz08/D3-China-map?tab=readme-ov-file)
-
-

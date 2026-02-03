@@ -162,6 +162,7 @@
                     d3.select(this).classed("selected", true);
                     selectedProvince = d3.select(this).attr("data-value");
                     console.log("SelectedProvince is " + selectedProvince);
+                    updateSelectedProvinceText();   // ⭐⭐⭐ 加这一句
                     updateSVGPattern(selectedProvince); // 根据选中的省份更新图案
                     updateProvinceStroke(selectedProvince); // 根据选中的省份更新边框宽度
                     updateProvincePattern(); // 重新定义图案
@@ -369,13 +370,13 @@
             var chinaFeatures = topojson.feature(china, china.objects.provinces).features;
             drawMap(chinaFeatures, "pattern"); // ColorMode by default
 
-            // document.getElementById("colorMode").addEventListener("click", function () {
-            //     drawMap(chinaFeatures, "color");
-            // });
+            document.getElementById("colorMode").addEventListener("click", function () {
+                drawMap(chinaFeatures, "color");
+            });
 
-            // document.getElementById("patternMode").addEventListener("click", function () {
-            //     drawMap(chinaFeatures, "pattern");
-            // });
+            document.getElementById("patternMode").addEventListener("click", function () {
+                drawMap(chinaFeatures, "pattern");
+            });
 
 
         });
